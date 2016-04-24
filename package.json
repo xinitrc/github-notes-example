@@ -5,9 +5,9 @@
   "main": "index.js",
   "keywords": [],
   "author": "Martin Hilscher <mail-npm@xinitrc.de> (http://xinitrc.de/)",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
-    "tsc": "tsc -p src -w",
+    "tsc": "tsc -w",
     "start": "live-server --open=src --port=8081"
   },
 "dependencies": {
