@@ -1,0 +1,23 @@
+{
+  "name": "GithubNotes",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Martin Hilscher <mail-npm@xinitrc.de> (http://xinitrc.de/)"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "pouchdb": "~5.1.0"
+  }
+}

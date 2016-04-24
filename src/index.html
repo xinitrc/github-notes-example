@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Github Notes</title>
+    <script src="../node_modules/systemjs/dist/system.src.js"></script>
+    <!--<script src="../node_modules/rxjs/Rx.js"></script>-->
+    <script src="../node_modules/angular2/bundles/angular2-polyfills.min.js"></script>
+<!--    <script src="../node_modules/angular2/core.js"></script>
+    <script src="../node_modules/angular2/platform/browser.js"></script>-->
+
+    <script src="../node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="../bower_components/pouchdb/dist/pouchdb.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <script>
+        System.config({
+            packages: {'app': {defaultExtension: 'js'}},
+            defaultJSExtensions: true,
+            map: {
+                'angular2': '/node_modules/angular2/',
+                'rx': '/node_modules/rxjs/',
+                'Rx': '/node_modules/rxjs/',
+                'rxjs': '/node_modules/rxjs/',
+                "zonejs": "/node_modules/zone.js/dist/",
+                'pouchdb': '/bower_components/pouchdb/dist/pouchdb.js'
+            }
+        });
+        System.import('app/App');
+    </script>
+</head>
+<body>
+<app>Loading &hellip;</app>
+</body>
+</html>
+
